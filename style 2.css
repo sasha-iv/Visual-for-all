@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: "Corbel";
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Corbel";
+    src: url("Corbel V2/Corbel V2.ttf");
+}
+header {
+    padding-top: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo {
+    width: 146px;
+    height: 44px;
+}
+header h1 {
+    margin-top: 104px;
+}
+h1, h2 {
+    text-align: center;
+    color: #14931F;
+}
+h1  {
+    font-size: 64px;
+    line-height: 77px;
+}
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+}
+.parag {
+    width: 420px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 53px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    color: #646F75;
+}
+header button {
+    width: 145px;
+    height: 52px;
+    background-color: #14931F;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 24px;
+    line-height: 29px;
+    display: block;
+    margin: 0 auto;  
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+.block-one {
+    width: 1100px;
+    margin: 0 auto;
+}
+.block-one h2 {
+    margin-bottom: 79px;
+}
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block-item {
+    width: 320px;
+    height: 120px;
+    background-color:#DFDBF5;
+    border-radius: 45px; 
+    color: #646F75;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+.block-two {
+    background-color: #DFDBF5;
+}
+.row {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 172px;
+}
+.block-two h2 {
+   padding-top: 108px;
+   margin-bottom: 0;
+   padding-bottom: 112px;
+}
+li {
+    list-style: none;
+    position: relative; 
+}
+li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    top: 3px;
+    background-repeat: no-repeat;
+    background-image: url(image/Vector.svg);
+}
+.green li::before { 
+    background-image: url(image/Vector-2.svg);
+    
+}
+.card {
+    width: 320px;
+    background-color: white;
+    border-radius: 45px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card-second {
+    background-color: #14931F;
+}
+.card h3 {
+    color: #14931F;
+    position: absolute;
+    font-size: 36px;
+    line-height: 44px;
+    top: 36px;
+    left: 40px;
+    margin: 0;
+    text-align: center;
+    width: calc(100% - 80px);
+}
+.card-second h3 {
+    color: white;
+}
+.card ul {
+    margin-top: 110px;
+}
+.card ul li{
+    padding-bottom: 16px;
+    color: #646F75;
+    font-size: 18px;
+    line-height: 22px;
+}
+.card-second ul li {
+    color: white;
+}
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 17px;
+    position: relative;
+    margin-top: auto;
+}
+.cost {
+    font-size: 48px;
+    color: #646F75;
+    line-height: 58px;
+}
+.cost-second {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: -20px;
+    right: 0;
+}
+.buy {
+    width: 145px;
+    height: 50px;
+    color: #646F75;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: 700; 
+    border: 1px solid #646F75; 
+    display: block;
+}
+.buy-second {
+    color: #646F75;
+    background-color: #14931F;
+    background-color: white;
+    border: 1px solid white;
+    margin-right: -80px;
+    margin-top: 10px;
+}
+.buy:hover {
+    color: white;
+    background-color: #14931F;
+}
+footer {
+    background-color:#14931F;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 40px;
+    text-align: center;
+    
+}
